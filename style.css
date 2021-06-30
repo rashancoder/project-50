@@ -1,0 +1,75 @@
+
+h1{ color:f7f2f2}
+h4{ color:darkblue}
+h3{font-family:comic sans ms;
+color:rgb(169, 169,169) ;}
+li{ color:darkgray;
+    font-family:comic sans ms;
+font-weight:lighter;
+}
+p{ color:darkgray;
+font-family:comic sans ms;
+font-weight: bold;
+}
+
+body{
+    margin: 0px;
+    background-color:rgba(127, 255, 212, 0.877);
+
+}
+    .grid{
+      display:flex;
+      flex-wrap: wrap; 
+      padding: 100px;
+      font-family: sans-serif;
+      margin: 0px;
+    }
+
+/*div{
+    display: flex;
+    justify-content: space-between;
+    color:rgb(190, 184, 184);
+    font-family: 'Times New Roman';
+    font-weight:400 ;
+}*/
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+
+}
+
+.origami {
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+    width:310px;
+    font-family: fantasy;
+}
+
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    font-family: fantasy;
+    font-weight: 400;
+    color: white;
+    padding: 20px;
+    
+    
+}
+
+
+.origami:hover{
+    transform:scale(1.2)
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color:  white;
+}
